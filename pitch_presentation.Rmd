@@ -1,0 +1,27 @@
+---
+title: "Air Quality Analysis Dashboard"
+author: "Data Science Student"
+date: "`r Sys.Date()`"
+output: 
+  ioslides_presentation:
+    css: style.css
+    widescreen: true
+    smaller: true
+---
+
+## Slide 1: Title Slide
+
+# 🌍 Air Quality Analysis Dashboard
+### Interactive Environmental Data Visualization
+
+**Name:** Data Science Student  
+**Course:** Developing Data Products  
+**Date:** `r format(Sys.Date(), "%B %d, %Y")`
+
+<br>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+library(plotly)
+library(DT)
+data(airquality)
