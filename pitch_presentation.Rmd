@@ -1,6 +1,6 @@
 ---
 title: "Air Quality Analysis Dashboard"
-author: "Data Science Student"
+author: "Mustafa Senturk"
 date: "`r Sys.Date()`"
 output: 
   ioslides_presentation:
